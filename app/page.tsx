@@ -47,10 +47,12 @@ export default function Home() {
         <section className="container mx-auto px-4 py-20 text-center">
           <h1 className="text-5xl font-bold mb-6">Discover Canadian-Made Products</h1>
           <p className="text-xl mb-8">Shop local, support Canadian businesses, and find quality products with Canify</p>
-          <Button size="lg" className="bg-red-500 hover:bg-red-600 text-white">
-            <Image src={DownloadIcon || "/placeholder.svg"} alt="Download" width={20} height={20} className="mr-2" />
-            Add to Chrome
-          </Button>
+          <a href="https://github.com/MBA380/Canify" target="_blank" rel="noopener noreferrer">
+            <Button size="lg" className="bg-red-500 hover:bg-red-600 text-white">
+              <Image src={DownloadIcon || "/placeholder.svg"} alt="Download" width={20} height={20} className="mr-2" />
+              Add to Chrome
+            </Button>
+          </a>
         </section>
 
         <section id="features" className="bg-gray-800 py-20">
